@@ -23,11 +23,11 @@ public:
 int Main()
 {
 	float width, height, depth;
-	cout << "haba" << endl;
+	cout << "幅" << endl;
 	cin >> width;
-	cout << "takasa" << endl;
+	cout << "高さ" << endl;
 	cin >> height;
-	cout << "okuyuki" << endl;
+	cout << "奥行き" << endl;
 	cin >> depth;
 	Box* box = new Box(width, height, depth);
 	cout << "boxの表面積" << box->GetSurface() << "boxの体積 " << box->GetVolume();
